@@ -1,0 +1,19 @@
+{
+  "name": "html-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project for all of my basic html css js projects built with the tools in consistently use along with bootstrap integrated into the dev environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "256k",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
