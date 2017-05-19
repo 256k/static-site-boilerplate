@@ -39,7 +39,7 @@ gulp.task('dist-html-files', function(){
 
 gulp.task('dist-asset-files', function(){
   return gulp.src('./dev/assets/*.*')
-  .pipe(gulp.dest('./dist/content'))
+  .pipe(gulp.dest('./dist/assets'))
 })
 
 gulp.task('dist-script-files', function() {
@@ -55,6 +55,8 @@ gulp.task('build', [
   'dist-html-files',
   'dist-script-files'
 ]);
+
+
 
 
 //  ============================================== //
