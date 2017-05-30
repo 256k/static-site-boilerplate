@@ -76,5 +76,6 @@ gulp.task('default', [
 ], function() {
     gulp.watch("./dev/*.html").on("change", reload);
     gulp.watch("./dev/sass/**/*.scss", ['sass']);
+    gulp.watch("./dev/js/**/*.js").on('change', reload);
 
 });
